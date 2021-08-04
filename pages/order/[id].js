@@ -115,7 +115,7 @@ function Order({ params }) {
           type: 'resetOptions',
           value: {
             'client-id': clientId,
-            currency: 'USD',
+            currency: 'EGP',
           },
         });
         paypalDispatch({ type: 'setLoadingStatus', value: 'pending' });
